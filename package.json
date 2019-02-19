@@ -1,6 +1,6 @@
 {
-  "name": "react-ui-tree",
-  "version": "4.0.0",
+  "name": "@xceleration/react-ui-tree",
+  "version": "4.1.0",
   "description": "React tree component",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -24,9 +24,9 @@
     "react-component",
     "tree"
   ],
-   "files": [
-     "index.d.ts",
-     "dist"
+  "files": [
+    "index.d.ts",
+    "dist"
   ],
   "author": "Wang Zuo",
   "license": "MIT",
@@ -41,7 +41,6 @@
   "dependencies": {
     "@babel/runtime": "^7.1.2",
     "classnames": "^2.2.5",
-    "js-tree": "^2.0.1",
     "prop-types": "^15.6.2"
   },
   "jest": {

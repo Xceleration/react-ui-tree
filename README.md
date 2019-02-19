@@ -1,4 +1,4 @@
-# react-ui-tree
+# @xceleration/react-ui-tree
 
 [![Build Status](https://travis-ci.org/pqx/react-ui-tree.svg)](https://travis-ci.org/pqx/react-ui-tree)
 [![npm](https://img.shields.io/npm/v/react-ui-tree.svg)](https://www.npmjs.com/package/react-ui-tree)
@@ -8,7 +8,7 @@ React tree component
 
 This project was initially developed for a webpage builder. It maintains an
 internal tree structure within the component through
-[js-tree](https://github.com/wangzuo/js-tree).
+[js-tree](https://github.com/Xceleration/react-ui-tree).
 
 ### Demo
 
@@ -27,6 +27,7 @@ npm install react-ui-tree --save
   paddingLeft={20}              // left padding for children nodes in pixels
   tree={this.state.tree}        // tree object
   onChange={this.handleChange}  // onChange(tree) tree object changed
+  onNodeChange={this.handleNodeChange} // onNodeChange(delta) delta of what changed.
   renderNode={this.renderNode}  // renderNode(node) return react element
 />
 
@@ -49,9 +50,9 @@ for a working example
 
 ### Development
 
-* npm install
-* npm start
-* http://localhost:8080/example
+- npm install
+- npm start
+- http://localhost:8080/example
 
 ### License
 
