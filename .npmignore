@@ -1,0 +1,11 @@
+lib/
+coverage/
+example/
+node_modules/
+.gitignore
+.npmignore
+.prettierignore
+.travis.yml
+babel.config.js
+rollup.config.js
+webpack.config.js

@@ -36,7 +36,8 @@ npm install react-ui-tree --save
 {
   "module": "react-ui-tree",
   "children": [{
-    "collapsed": true,
+    "collapsed": true,  // closed, by default
+    "draggable": false, // fixed, and can't be dragged
     "module": "dist",
     "children": [{
       "module": "node.js"

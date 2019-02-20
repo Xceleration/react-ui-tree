@@ -14,6 +14,7 @@ module.exports = {
   children: [
     {
       id: createUID(),
+      draggable: false,
       module: 'dist',
       collapsed: true,
       children: [
@@ -113,6 +114,7 @@ module.exports = {
     },
     {
       id: createUID(),
+      draggable: false,
       module: 'README.md',
       leaf: true
     },
